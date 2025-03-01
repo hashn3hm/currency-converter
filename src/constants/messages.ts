@@ -1,0 +1,31 @@
+export const MESSAGES = {
+  USER_ALREADY_EXISTS: "User already exists with this email",
+  VERIFICATION_CODE: "Verification Code",
+  OTP_SENT: "Otp Sent to Registered Email",
+  USER_NOT_FOUND: "User not found",
+  PASSWORD_MISMATCH: "Password mismatch",
+  NOT_VERIFIED: "Not Verified",
+  INCOMPLETE_PROFILE: "Please complete your profile",
+  LOGIN_SUCCESS: "User logged in Sucessfully",
+  FORGOTPASSWORD: "Email Sent To Reset Password",
+  PROFILE_CREATED: "Profile created Sucessfully",
+  OTP_MISMATCH: "OTP Mismatch",
+  OTP_EXPIRED: "OTP Expired",
+  OTP_VERIFIED: "OTP Verified",
+  INVALID_OTP: "Invalid OTP",
+  INVALID_PASSWORD: "Invalid Password",
+  USER_LOGGED_OUT: "User logged out successfully",
+  PASSWORD_CHANGED: "Password changed successfully",
+  OLD_PASSWORD_NOT_MATCHED: "Old password does not match",
+  PASSWORD_RESET: "Password reset successfully",
+  USER_FETCHED: "User fetched sucessfully",
+  USER_UPDATED: "User updated sucessfully",
+  PROFILE_PICTURE_REQUIRED: "Profile picture required",
+  UNAUTHENTICATION: "Unauthorized",
+  USERID_REQUIRED: "UserId Required",
+  INTERNAL_SERVER_ERROR: "Internal server error",
+};
+
+export const SUBJECT = {
+  USER_CONFIRM_OTP: "Confirmation Email OTP Verification",
+};
