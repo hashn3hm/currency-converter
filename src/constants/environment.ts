@@ -23,4 +23,5 @@ export const {
     SSL_CERT_PATH,
     APP_ENV,
     MONGO_URI,
+    FREECURRENCYAPI_KEY
 } = process.env;

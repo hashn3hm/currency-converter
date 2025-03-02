@@ -6,6 +6,7 @@ import { Server as SocketIOServer } from 'socket.io';
 
 // Import Routes
 import authRoutes from './routes/auth';
+import currencyRoutes from './routes/currency';
 import ConnectDB from './config/db';
 import morgan from 'morgan';
 import morganBody from 'morgan-body';
@@ -52,6 +53,7 @@ app.post("/api/v1/upload", upload.single("file"), (req: Request, res: Response) 
 
 // Register Routes
 app.use('/api/v1/users/auth', authRoutes);
+app.use('/api/v1/', currencyRoutes);
 
 // Setup HTTP server with Socket.IO
 const server = http.createServer(app);
